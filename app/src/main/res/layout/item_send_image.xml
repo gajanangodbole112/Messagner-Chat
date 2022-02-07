@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/iv_send_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_img_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:text="time"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18ssp" />
+</FrameLayout>

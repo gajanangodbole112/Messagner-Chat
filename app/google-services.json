@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "572808305901",
+    "firebase_url": "https://messanger-chat-e46fd-default-rtdb.firebaseio.com",
+    "project_id": "messanger-chat-e46fd",
+    "storage_bucket": "messanger-chat-e46fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572808305901:android:d3b2f472e14a3635a400e4",
+        "android_client_info": {
+          "package_name": "com.gajanan.messenger_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572808305901-nqm95fmap1g7t0gs4njvle70b1gov1gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gajanan.messenger_chat",
+            "certificate_hash": "7ffa06ded8877e0c04ed35cdc58c62ab217ba2b5"
+          }
+        },
+        {
+          "client_id": "572808305901-rf28499hp9umdfudnd11a56cip9m4dpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRvjYTvkHAiGcYf1Q_Sa2sKu2lny_9O_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572808305901-rf28499hp9umdfudnd11a56cip9m4dpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_8sdp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+       android:id="@+id/iv_profileImg"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/bg_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_oval="true"
+        android:scaleType="centerCrop"
+
+        />
+<View
+    android:id="@+id/view_line"
+    android:layout_width="@dimen/_1sdp"
+    android:layout_height="@dimen/_1sdp"
+    app:layout_constraintBottom_toBottomOf="@+id/iv_profileImg"
+    android:layout_marginStart="@dimen/_5sdp"
+    app:layout_constraintStart_toEndOf="@+id/iv_profileImg"
+    app:layout_constraintTop_toTopOf="@+id/iv_profileImg"
+
+    />
+<TextView
+    android:id="@+id/tv_userName"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:text="Username"
+    android:textColor="@color/primary_text"
+    android:textSize="@dimen/_13ssp"
+    app:layout_constraintBottom_toTopOf="@+id/view_line"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/iv_profileImg"
+
+    />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Email"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/_10ssp"
+       app:layout_constraintTop_toBottomOf="@+id/view_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_profileImg"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
